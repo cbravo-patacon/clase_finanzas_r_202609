@@ -23,7 +23,7 @@ datos <- tibble(
 
   # Generar 252 fechas consecutivas comenzando desde la fecha actual.
   fecha = seq(
-    Sys.Date(),
+    Sys.Date(), 
     by = "day",
     length.out = n_dias
   ),
